@@ -31,7 +31,7 @@ function draw() {
   background (random(200,255), random(100,255), random(100,255));
   fill(255);
   ellipse(random(width), random(height), random(width), random(height));
-  
+  triangle(random(width), random(height), random(width), random(height), random(width), random(height));
   }
 }
 
