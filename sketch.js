@@ -6,10 +6,21 @@ let birds = [
   {name: "bluebird",
     color: "bright blue"},
   {name: "hummingbird",
-    color: "green"},
+    color: "green and pink"},
   {name: "house finch",
     color: "pink"},
-  {name: "sandpiper", color: "light brown"}           
+  {name: "sandpiper", color: "light brown"},
+  {name: "robin",
+    color: "black and orange"},
+  {name: "goldfinch",
+    color: "yellow"},
+  {name: "blue jay",
+    color: "light blue"},
+  {name: "painted bunting",
+    color: "rainbow"},
+  {name: "flamingo",
+    color: "pink"},
+  {name: "mockingbird", color: "gray"}      
 ];
 
 
@@ -32,6 +43,7 @@ function draw() {
   fill(255);
   ellipse(random(width), random(height), random(width), random(height));
   triangle(random(width), random(height), random(width), random(height), random(width), random(height));
+  rect(random(width), random(height), random(width), random(height));
   }
 }
 
